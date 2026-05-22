@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="LocalHost.Depi_med"
+  DTS:DTSID="{02E0D8A7-D3F9-45C3-9D35-55B57121F212}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=.;Initial Catalog=Silver_DB;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Depi_med-{02E0D8A7-D3F9-45C3-9D35-55B57121F212}LocalHost.Depi_med;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
